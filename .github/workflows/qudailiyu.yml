@@ -2,20 +2,26 @@ name: qudailiyu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 2/6 * * *'
+    - cron: '57 3/6 * * *'
 
-jobs:  # 7140
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: qudailiyu
         env:
-          tjv5: ${{ secrets.tjv5 }}
+          k492: ${{ secrets.k492 }}
         run: |
-          echo $tjv5 | jq -r .djmyp46 | /bin/bash
-          echo $mbfq494 | jq -r .ntm8 | /bin/bash
-          echo $ifyxm2 | jq -r .jidv9 | /bin/bash
-          echo $gy76809 | jq -r .o654 | /bin/bash
-          echo $iich14739 | jq -r .dthk2 | /bin/bash
+          echo $k492 | jq -r .djrbw82 | /bin/bash
+          echo $l33 | jq -r .sqtyg00109 | /bin/bash
+          echo $ar050 | jq -r .t8 | /bin/bash
+          echo $eq2 | jq -r .dttl19211 | /bin/bash
+          echo $ixys6513 | jq -r .u4 | /bin/bash
+          echo $alfu665 | jq -r .ppl5151 | /bin/bash
+          echo $i424 | jq -r .o78423 | /bin/bash
+          echo $ygb376 | jq -r .tyh25 | /bin/bash
+          echo $tl9 | jq -r .cc2331 | /bin/bash
+          echo $cgbps6530 | jq -r .hjef830 | /bin/bash
+          echo $f458 | jq -r .qossr70149 | /bin/bash
 
